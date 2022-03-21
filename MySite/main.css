@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+/*header*/
+div.hero{
+    background-image: url("img/roland-denes-beprhhF780E-unsplash\ \(1\).jpg"); 
+    height:100vh;
+    background-position: center center;
+    background-size: cover cover;
+}
+div.header-content{
+    padding-top: 4rem;
+}
+nav.social-media{
+    text-align: center;
+
+}
+nav.social-media a{
+    color: darkgoldenrod;
+    font-size: 4rem;
+    margin: 2rem;
+}
+div.information{
+    text-align: center;
+    color: darkgoldenrod;
+    margin: 1rem;
+    font-size: 2rem;
+
+}
+div.site-name{
+    color: darkgoldenrod;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+div.slogan{
+    color: darkgoldenrod;
+    text-align: center;
+    margin: 1rem;
+    font-size: 3rem;
+}
+.site-footer{
+    padding: 4rem;
+    background-color: tan;
+}
+div.footer-links a{
+    font-family: 'Bungee', cursive;;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+div.footer-links a h1{
+    width: 49%;
+    background-color: teal;
+    border: 5px solid darkgoldenrod;
+    display: inline-flex
+}
